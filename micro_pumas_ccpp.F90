@@ -12,6 +12,7 @@ contains
 
   !> \section arg_table_micro_pumas_ccpp_init Argument Table
   !! \htmlinclude micro_pumas_ccpp_init.html
+  !!
   subroutine micro_pumas_ccpp_init(gravit, rair, rh2o, cpair, tmelt, latvap, latice,     &
                                    rhmini, iulog, micro_mg_do_hail, micro_mg_do_graupel, &
                                    microp_uniform, do_cldice, use_hetfrz_classnuc,       &
@@ -205,6 +206,7 @@ contains
 
   !> \section arg_table_micro_pumas_ccpp_run Argument Table
   !! \htmlinclude micro_pumas_ccpp_run.html
+  !!
   subroutine micro_pumas_ccpp_run(micro_ncol, micro_nlev, micro_nlevp1,             &
                                   micro_dust_nbins, micro_timestep_in,              &
                                   micro_airT_in, micro_airq_in, micro_cldliq_in,    &
