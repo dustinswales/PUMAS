@@ -19,7 +19,7 @@
 ##### Init Arguments
 
 [gravit]
-  standard_name = standard_gravitational_acceleration
+  standard_name = gravitational_acceleration
   long_name = standard gravitational acceleration
   units = m s-2
   dimensions = ()
