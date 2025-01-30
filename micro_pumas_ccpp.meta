@@ -7,7 +7,7 @@
   dependencies = micro_pumas_diags.F90
   dependencies = pumas_stochastic_collect_tau.F90,tau_neural_net_quantile.F90
   dependencies = module_neural_net.F90,ML_fixer_check.F90
-
+  dependencies = ../../../hooks/machine.F
   #External dependencies:
   dependencies = ../../../tools/wv_sat_methods.F90
 

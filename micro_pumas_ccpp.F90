@@ -39,7 +39,7 @@ contains
                                    micro_mg_nsnst_in, errmsg, errcode)
 
   !External dependencies:
-  use ccpp_kinds,        only: kind_phys
+  use machine,           only: kind_phys
   use micro_pumas_v1,    only: micro_pumas_init
   use pumas_kinds,       only: pumas_r8=>kind_r8
 
@@ -267,7 +267,7 @@ contains
                                   errmsg, errcode)
 
     !External dependencies:
-    use ccpp_kinds,        only: kind_phys
+    use machine,           only: kind_phys
     use micro_pumas_v1,    only: micro_pumas_tend
     use micro_pumas_diags, only: proc_rates_type
     use pumas_kinds,       only: pumas_r8=>kind_r8
