@@ -35,7 +35,7 @@
   kind = kind_phys
   intent = in
 [rh2o]
-  standard_name = gas_constant_of_water_vapor
+  standard_name = gas_constant_water_vapor
   long_name = ideal gas constant for water vapor
   units = J kg-1 K-1
   dimensions = ()
@@ -83,7 +83,7 @@
   kind = kind_phys
   intent = in
 [iulog]
-  standard_name = log_output_unit
+  standard_name = iounit_of_log
   long_name = log output unit
   units = 1
   dimensions = ()
